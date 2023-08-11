@@ -1,0 +1,30 @@
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ padding: 40px;
+ border-radius: 10px;
+ box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.title{
+ font-weight: bold;
+  font-size: 18px;
+
+ 
+}
+.containertotla{
+  background-color: rgb(239, 235, 235);
+  padding: 10px 50px;
+}
+
+button{
+ padding: 10px;
+ background-color: rgb(9, 110, 9);
+ border: none;
+ outline: none;
+ margin: 10px;
+ color: aliceblue;
+ border-radius: 5px;
+ font-size: 15px;
+}

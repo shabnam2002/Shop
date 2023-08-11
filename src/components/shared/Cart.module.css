@@ -1,0 +1,74 @@
+.container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 40px;
+ background-color: rgb(239, 235, 235);
+ width: 50rem;
+ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+margin-bottom: 2rem;
+}
+.img{
+ width: 10rem;
+ border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.price{
+ background-color: blueviolet;
+ color: white;
+ border-radius: 5px;
+ padding: 5px;
+ text-align: center;
+ font-weight: bold;
+}
+.quantity{
+ background-color: blueviolet;
+ color: white;
+ border-radius: 5px;
+ padding: 7px;
+ text-align: center;
+ font-weight: bold;
+}
+.decrease{
+padding: 8px 15px;
+ background-color: blueviolet;
+ color: white;
+ outline: none;
+ border: none;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ cursor: pointer;
+ font-weight: 15px;
+ font-size: 15px;
+ margin: 5px;
+}
+
+.trash{
+ background-color: rgb(207, 167, 245);
+ outline: none;
+ border: none;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ cursor: pointer;
+padding: 6px 10px;
+margin-bottom: 100px;
+margin: 20px;
+margin: auto;
+
+}
+
+
+.increase{
+padding: 8px 15px;
+ background-color: blueviolet;
+ color: white;
+ outline: none;
+ border: none;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ cursor: pointer;
+ font-weight: 15px;
+ font-size: 15px;
+  margin: 3px;
+}

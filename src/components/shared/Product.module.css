@@ -1,0 +1,100 @@
+.container{
+ background-color: rgb(255, 255, 255);
+ padding: 20px;
+ margin: 10px;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+ border-radius: .5rem;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.container:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.img{
+ width: 13rem;
+ height: 13rem;
+margin: auto;
+
+
+}
+
+.detail{
+ text-decoration: none;
+ 
+}
+.linkcontainer{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+
+}
+.detail{
+ color: blueviolet;
+ font-weight: bold;
+}
+.addtocart{
+ padding: 10px;
+ background-color: blueviolet;
+ color: white;
+ outline: none;
+ border: none;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ cursor: pointer;
+}
+.addtocart:hover{
+  background-color: rgb(107, 30, 180);
+
+}
+
+.decrease{
+padding: 8px 15px;
+ background-color: blueviolet;
+ color: white;
+ outline: none;
+ border: none;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ cursor: pointer;
+ font-weight: 15px;
+ font-size: 15px;
+ margin: 5px;
+}
+
+.trash{
+ background-color: rgb(207, 167, 245);
+ outline: none;
+ border: none;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ cursor: pointer;
+padding: 6px 10px;
+margin-bottom: 100px;
+margin: 20px;
+margin: auto;
+}
+
+
+.increase{
+padding: 8px 15px;
+ background-color: blueviolet;
+ color: white;
+ outline: none;
+ border: none;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ cursor: pointer;
+ font-weight: 15px;
+ font-size: 15px;
+  margin: 3px;
+}
+.counter{
+   font-size: 15px;
+   margin: 2px;
+   font-weight: bold;
+   color: blueviolet;
+}

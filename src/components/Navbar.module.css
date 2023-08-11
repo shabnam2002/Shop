@@ -1,0 +1,42 @@
+.container{
+ display: flex;
+ justify-content:space-around;
+ align-items: center;
+ border-bottom: 1px solid #e5e5e5;
+
+}
+.tele{
+ display: flex;
+ align-items: center;
+}
+.socialcontainer{
+  display: flex;
+ align-items: center;
+}
+img{
+ width: 1rem;
+ cursor: pointer;
+}
+.gmailcontainer{
+ display: flex;
+ align-items: center;
+}
+.logincontainer {
+  margin-left: 120px;
+}
+
+.logincontainer button{
+ border: none;
+ outline: none;
+ padding: 10px;
+ border-radius: 5px;
+ cursor: pointer;
+ background-color: rgb(139, 34, 160);
+ color: white;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+color: rgb(123, 112, 134);}
+
